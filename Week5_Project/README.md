@@ -1,34 +1,44 @@
-
 # Week 5 – ECIS Project
 
 # ECIS – Electronic Component Intelligence System
 
 ## Overview
 
-ECIS is a computer vision based inspection system designed for intelligent analysis of electronic components and PCB defects using deep learning and image processing techniques.
+ECIS is a computer vision based inspection system designed for intelligent analysis of electronic components and PCB defects using deep learning and OCR techniques.
 
 The project combines:
 - object detection,
 - OCR,
 - defect analysis,
 - and component classification
-into a unified AI workflow.
+into a unified AI workflow for automated electronic inspection systems.
+
+---
+
+## Project Goals
+
+- Detect electronic components using YOLO
+- Identify PCB defects automatically
+- Extract part numbers using OCR
+- Perform visual inspection using AI
+- Generate annotated outputs for analysis
 
 ---
 
 ## Features
 
-- Electronic component detection using YOLO
-- OCR-based part number extraction
-- PCB defect inspection
-- Basic anomaly detection
-- Automated visual analysis pipeline
+- PCB defect detection
+- Electronic component identification
+- AI-based inspection workflow
+- Bounding box prediction
+- Deep learning inference pipeline
+- Visual defect localization
 
 ---
 
 ## Example PCB Defects
 
-The following image shows common PCB manufacturing defects used in computer vision inspection systems.
+The following image shows common PCB manufacturing defects analyzed using computer vision techniques.
 
 ![PCB Defects](pcb_defects.png)
 
@@ -45,17 +55,17 @@ The following image shows common PCB manufacturing defects used in computer visi
 
 ---
 
-## Workflow
+## ECIS Workflow
 
 ```text
 Input PCB Image
-      ↓
-Component Detection
-      ↓
-OCR Extraction
-      ↓
-Defect Detection
-      ↓
+        ↓
+Component Detection using YOLO
+        ↓
+OCR-based Text Extraction
+        ↓
+Defect Detection & Analysis
+        ↓
 Final Inspection Output
 ```
 
@@ -71,10 +81,28 @@ Final Inspection Output
 
 ---
 
+## Concepts Learned
+
+- Object Detection
+- Semantic Segmentation
+- OCR Integration
+- PCB Inspection
+- AI-based Visual Analysis
+- Deep Learning Workflow Design
+
+---
+
 ## Future Scope
 
 - Real-time PCB inspection
-- Embedded deployment
-- Industrial automation
+- Embedded AI deployment
 - Streamlit dashboard integration
+- Industrial automation systems
 - Advanced anomaly detection
+- Large-scale electronic component datasets
+
+---
+
+## Output
+
+Successfully designed a conceptual AI-based PCB inspection system using YOLO, OCR, and computer vision techniques for intelligent electronic component analysis.

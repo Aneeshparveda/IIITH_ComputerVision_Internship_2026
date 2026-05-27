@@ -38,3 +38,17 @@ This repository contains my work from the Online Summer Internship 2026. The pro
 
 ## Summary
 This internship helped me understand the complete workflow of a computer vision project, from data processing to model training and result generation.
+
+## Repository Structure
+
+- Week1_VideoProcessing → FFmpeg video processing tasks
+- Week2_ObjectDetection → YOLO object detection experiments
+- Week3_Segmentation → Semantic segmentation outputs
+- Week4_Dataset → Dataset preparation and labeling
+- Week5_Project → Final ECIS project
+
+## Final Project
+
+### ECIS – Electronic Component Intelligence System
+
+A computer vision system that detects and classifies electronic components using YOLO, extracts part numbers using OCR, and performs basic defect detection using OpenCV.

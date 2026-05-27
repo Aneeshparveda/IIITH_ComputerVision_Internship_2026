@@ -3,10 +3,10 @@ from ultralytics import YOLO
 # Load pretrained YOLO model
 model = YOLO("yolov8n.pt")
 
-# Run object detection
+# Run object detection on PCB image
 results = model(
-    "https://ultralytics.com/images/bus.jpg",
+    "pcb_image.jpg",
     save=True
 )
 
-print("Object Detection Completed")
+print("PCB Object Detection Completed Successfully")

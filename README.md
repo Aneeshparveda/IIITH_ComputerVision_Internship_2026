@@ -2,8 +2,6 @@
   DRAFT ONLY — for the readme-revamp branch. Not committed, not pushed.
   Evidence rules applied: every claim traces to a file in this repo.
   Anything not evidenced is marked <!-- TODO: ... --> and listed in
-  "What I still need to add" below.
--->
 
 <!-- Hero banner (renders as an image on GitHub; the H1 + tagline below
      it are the plain-text fallback, so the page still reads if the

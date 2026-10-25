@@ -1,11 +1,4 @@
-<!--
-  DRAFT ONLY — for the readme-revamp branch. Not committed, not pushed.
-  Evidence rules applied: every claim traces to a file in this repo.
-  Anything not evidenced is marked <!-- TODO: ... --> and listed in
 
-<!-- Hero banner (renders as an image on GitHub; the H1 + tagline below
-     it are the plain-text fallback, so the page still reads if the
-     widget ever fails to load.) -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,10&height=220&section=header&text=IIITH%20Computer%20Vision&fontSize=42&fontColor=ffffff&animation=fadeIn" alt="IIITH Computer Vision — waving banner" width="100%" />
 </p>
